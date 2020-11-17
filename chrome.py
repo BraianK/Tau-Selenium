@@ -22,7 +22,7 @@ temp = WebDriverWait(driver, 5).until(exp.element_to_be_clickable((By.NAME, 'for
 temp.click()
 time.sleep(3)
 try:
-    temp = driver.find_elements_by_class_name('listLayout-main')[0].find_elements_by_class_name('threadGrid')[6].find_element_by_class_name('cept-dealBtn')
+    temp = driver.find_elements_by_class_name('listLayout-main')[0].find_elements_by_class_name('threadGrid')[0].find_element_by_class_name('cept-dealBtn')
 # temp = driver.find_elements_by_class_name('listLayout-main')[0].find_element_by_class_name('cept-dealBtn')
 #
     temp.click()
