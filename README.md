@@ -1,5 +1,5 @@
 
-# Senariusze testowe
+# Laboratiorium nr 2
 ## Pepper
 ### Pierwszy scenariusz:
 * Wejdź na stronę https://www.pepper.pl/
@@ -21,4 +21,19 @@
 * Wybierz pierwszy element z listy okazji
 * Jeżeli jest przycisk "Idź do okazji" to go kliknij i przejdź do okazji
 * Jeżeli nie ma buttonu "Idź do okazji" to wypisz wyjątek "Nie ma możliwości przejścia do okazji"
+
+## Morele
+### Pierwszy scenariusz:
+* Przejdź na stronę https://www.morele.net
+* Przejdź do wyszukiwarki
+* Wyszukaj frazy "Monitor Samsung"
+* Wciśnij ENTER
+* Wybierz pierwszy element z listy
+* Kliknij dodaj do koszyka
+* W modalu przedłużenia gwarancji kliknij button "Przejdź do koszyka"
+* Jeżeli po kliknięciu na liście dodania do koszyka lub na przedłużeniu gwarancji wystąpi timeout przejdź na stronę https://www.morele.net/koszyk/
+### Drugi scenariusz:
+
+### Bundle:
+
 
