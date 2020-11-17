@@ -5,15 +5,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as exp
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Firefox(executable_path='C:\\Users\\Braian\\.wdm\\drivers\\geckodriver\\win64\\v0.28.0\\geckodriver.exe')
 
 driver.get('https://www.morele.net')
 
 temp = driver.find_element_by_name('search')
 temp.send_keys("Monitor Samsung")
+time.sleep(5)
 temp.send_keys(Keys.ENTER)
 time.sleep(5)
 temp = driver.find_elements_by_class_name('cat-list-products')[0].find_element_by_class_name('pushAddToBasketData')
