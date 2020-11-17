@@ -1,10 +1,10 @@
 
 # Senariusze testowe
 
-##Pierwszy scenariusz:
+## Pierwszy scenariusz:
 
 
-1. Wejdź na stronę pepper.pl
+1. Wejdź na stronę https://www.pepper.pl/
 2. Przejdź do panelu logowania klikając "Zarejestruj się / Zaloguj Się"
 3. Uzupełnij input "NAZWA UŻYTKOWNIKA LUB E-MAIL" loginem
 4. Uzupełnij input "PASSWORD" hasłem
@@ -15,7 +15,7 @@
 8b  Jeżeli nie ma buttonu "Idź do okazji" to wypisz wyjątek "Nie ma możliwości przejścia do okazji"
 
 
-##Drugi scenariusz:
+## Drugi scenariusz:
 
 
 in progress
