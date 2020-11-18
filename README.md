@@ -33,7 +33,12 @@
 * W modalu przedłużenia gwarancji kliknij button "Przejdź do koszyka"
 * Jeżeli po kliknięciu na liście dodania do koszyka lub na przedłużeniu gwarancji wystąpi timeout przejdź na stronę https://www.morele.net/koszyk/
 ### Drugi scenariusz:
-
+* Przejdź na stronę https://www.morele.net/kategoria/laptopy-31/
+* Wybierz pierwszy element z listy
+* Kliknij dodaj do koszyka
+* Zamknij wyskakujący modal
+* Przejdź do koszyka
+* Wybierz wszystkie elementy i je usuń
 ### Bundle:
 
 
