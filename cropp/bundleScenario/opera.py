@@ -2,9 +2,8 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Opera(executable_path='C:\\Users\\Braian\\.wdm\\drivers\\operadriver\\win64\\v.86.0.4240.80\\operadriver_win64\\operadriver.exe')
 
 driver.get('https://www.cropp.com/pl/pl/')
 driver.maximize_window()

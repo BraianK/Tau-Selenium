@@ -2,9 +2,8 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Firefox(executable_path='C:\\Users\\Braian\\.wdm\\drivers\\geckodriver\\win64\\v0.28.0\\geckodriver.exe')
 
 driver.get('https://www.cropp.com/pl/pl/')
 driver.maximize_window()
