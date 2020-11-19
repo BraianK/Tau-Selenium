@@ -24,7 +24,7 @@ temp.click()
 
 time.sleep(7)
 driver.get('https://www.morele.net/kategoria/laptopy-31/')
-
+time.sleep(5)
 temp = driver.find_elements_by_class_name('cat-list-products')[0].find_element_by_class_name('pushAddToBasketData')
 time.sleep(5)
 temp.click()
